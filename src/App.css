@@ -18,7 +18,7 @@ body {
     
 }
 .title {
-    color: rgb(247, 245, 245);
+    color: #30fbef;
 }
 .quote-wrapper {
     display: flex;
@@ -28,33 +28,50 @@ body {
     border: 2px solid #272829;
     box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
-    margin-left: 30rem;
-    margin-bottom: 2rem;
-    margin-top: 9rem;
+    margin-left: 25rem;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
     width: 40%;
     height: min-content;
     padding-left: 4rem;
     padding: 4rem;
     color: white;
+    
 }
 
 .get-quote {
        
-  width:200px;
+     background: #282828;
+    box-shadow: 4px 3px 8px rgba(56, 55, 55, 0.25), -3px -3px 8px rgba(50, 51, 51, 0.1);
+    border-color: rgb(58, 58, 56);
+    border-radius: 50px; 
+    color: whitesmoke;
+    
+    width: 210px;
+    height: 60px;
 
-  height:40px;
-
-  background-color: #f00606 !important;
-
-  color: white !important;
-
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
-
-  border-radius: 5px !important;
-  margin-bottom: 5px;
-
+}
+.get-quote h4 {
+    color: #30fbef;
+    font-size: medium;
 }
 .get-quote:hover {
     transform: scale(1.1);
    
+}
+
+@media  (max-width: 900px) {
+    .quote-wrapper {
+        margin-left: 6rem;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .quote-wrapper{
+        margin-left: 0rem;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .quote-wrapper {
+        margin-left: 20rem;
+    }
 }
