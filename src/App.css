@@ -1,3 +1,35 @@
+body {
+    margin: 0;
+}
+
 .App {
     align-items: center;
+    text-align: center;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+   
+    background-image: url("https://images.pexels.com/photos/5697261/pexels-photo-5697261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); 
+
+     font-size: 1.5rem;
+    
+}
+.title {
+    color: rgb(12, 11, 11);
+}
+.quote-wrapper {
+    display: flex;
+    border: 2px solid yellow;
+    width: 50%;
+    height: 30vh;
+    margin-left: 28rem;
+    margin-bottom: 2rem;
+    color: white;
+    text-align: center;
+    padding: auto;
+}
+button {
+    border-radius: 50px;
+    background-color: red;
+
 }
