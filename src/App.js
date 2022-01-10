@@ -18,7 +18,7 @@ const App = () => {
             <h1 className="title">Random Quote Generator</h1>
             
              <div className="quote-wrapper">
-                  <h3> "{quote}" </h3> 
+                  <h2> "{quote}" </h2> 
              </div>
             <Button className="get-quote" onClick={getQuote} ><h4>Get Quote</h4> </Button>
         </div>

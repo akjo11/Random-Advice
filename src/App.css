@@ -22,16 +22,20 @@ body {
 }
 .quote-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    border: 3px solid yellow;
-    width: 50%;
-    height: 30vh;
-    margin-top: 10rem;
-    margin-left: 28rem;
+     flex-direction: column;
+    justify-content: flex-start;
+    background: radial-gradient(38.2% 50% at 50% 50%, #2E3134 0%, #292B2E 100%);
+    border: 2px solid #272829;
+    box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    margin-left: 30rem;
     margin-bottom: 2rem;
+    margin-top: 9rem;
+    width: 40%;
+    height: min-content;
+    padding-left: 4rem;
+    padding: 4rem;
     color: white;
-    text-align: center;
-    padding: 2rem;
 }
 
 .get-quote {
