@@ -1,6 +1,7 @@
 import axios from "axios";
 import React,{useState,useEffect} from "react";
 import './App.css';
+import Button from '@material-ui/core/Button';
 
 
 
@@ -19,7 +20,7 @@ const App = () => {
              <div className="quote-wrapper">
                   <h3> "{quote}" </h3> 
              </div>
-            <button onClick={getQuote} >GET QUOTE </button>
+            <Button className="get-quote" onClick={getQuote} ><h4>Get Quote</h4> </Button>
         </div>
     )
 }

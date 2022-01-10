@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: black;
 }
 
 .App {
@@ -8,28 +9,48 @@ body {
     position: absolute;
     min-width: 100%;
     min-height: 100%;
+    background: black;
+    
    
-    background-image: url("https://images.pexels.com/photos/5697261/pexels-photo-5697261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); 
+    
 
      font-size: 1.5rem;
     
 }
 .title {
-    color: rgb(12, 11, 11);
+    color: rgb(247, 245, 245);
 }
 .quote-wrapper {
     display: flex;
-    border: 2px solid yellow;
+    flex-wrap: wrap;
+    border: 3px solid yellow;
     width: 50%;
     height: 30vh;
+    margin-top: 10rem;
     margin-left: 28rem;
     margin-bottom: 2rem;
     color: white;
     text-align: center;
-    padding: auto;
+    padding: 2rem;
 }
-button {
-    border-radius: 50px;
-    background-color: red;
 
+.get-quote {
+       
+  width:200px;
+
+  height:40px;
+
+  background-color: #f00606 !important;
+
+  color: white !important;
+
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+  border-radius: 5px !important;
+  margin-bottom: 5px;
+
+}
+.get-quote:hover {
+    transform: scale(1.1);
+   
 }
