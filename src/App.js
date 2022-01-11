@@ -16,6 +16,7 @@ const App = () => {
     return (
         <div className="App">
             <h1 className="title">Random Quote Generator</h1>
+            <h4 className="subtitle">No seriously..they can be handy</h4>
             
              <div className="quote-wrapper">
                   <h2> "{quote}" </h2> 
